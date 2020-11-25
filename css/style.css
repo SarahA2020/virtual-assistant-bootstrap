@@ -13,56 +13,76 @@ body {
   padding: .5rem 0;
 }
 
+.flex {
+  display: flex;
+
+}
+
+.top-bar-text {
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
 .top-bar a {
   color: #ffffff;
   text-decoration: none;
   font-size: 1.1rem;
 }
 
-/*============= NAVIGATION =============*/
-
-.navbar-brand {
-  width: 200px;
+.top-bar-text-left {
+  padding-left: 0;
 }
+
+.top-bar-text-right {
+  padding-right: 0;
+}
+
+/*============= NAVIGATION =============*/
 
 .nav-styling {
   position: relative;
-  height: 7.5rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: .02rem;
 }
+
+.nav-item {
+  padding: .5rem;
+}
+
+.nav-link {
+  color: #5b5555!important;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #af99a1!important;
+}
+
+  /*CA Logo and Text*/
 
 nav::before {
   content: '';
   display: block;
   background-color: #726469;
-  width: 75px;
-  height: 75px;
+  width: 46px;
+  height: 46px;
   border-radius: 50%;
   position: absolute;
-  top: 13px;
-  left: 81px;
+  top: 10px;
+  left: 237px;
 }
 
 .pseudo-logo {
   font-family: 'Kufam', Arial;
-  font-size: 3.1rem;
+  font-size: 1.8rem;
   font-weight: 600;
   color: #eadde1;
   position: absolute;
-  top: 20px;
-  left: 88.5px;
-  letter-spacing: -0.5rem;
+  top: 15px;
+  left: 242px;
+  letter-spacing: -.22rem;
 }
-
-.pseudo-logo-text {
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-size: .65rem;
-  color: #726469;
-  position: absolute;
-  top: 92px;
-  left: 36px;
-}
-
-
 
 
 
