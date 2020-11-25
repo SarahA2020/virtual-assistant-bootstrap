@@ -25,6 +25,47 @@ body {
   width: 200px;
 }
 
+.nav-styling {
+  position: relative;
+  height: 7.5rem;
+}
+
+nav::before {
+  content: '';
+  display: block;
+  background-color: #726469;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  position: absolute;
+  top: 13px;
+  left: 81px;
+}
+
+.pseudo-logo {
+  font-family: 'Kufam', Arial;
+  font-size: 3.1rem;
+  font-weight: 600;
+  color: #eadde1;
+  position: absolute;
+  top: 20px;
+  left: 88.5px;
+  letter-spacing: -0.5rem;
+}
+
+.pseudo-logo-text {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: .65rem;
+  color: #726469;
+  position: absolute;
+  top: 92px;
+  left: 36px;
+}
+
+
+
+
+
 /*============= CAROUSEL =============*/
 
 
